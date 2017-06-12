@@ -10,7 +10,7 @@
     <table class="table">
       <thead>
         <tr>
-          <th>Practice 1</th>
+          <th>Practice 1 <a href="javascript:;" onclick="printa()">click me</a></th>
           <th>Practice 2</th>
           <th>Practice 3</th>
         </tr>
@@ -19,7 +19,12 @@
         <tr>
           <td id="practice_1_answer"></td>
           <td id="practice_2_answer"></td>
-          <td id="practice_3_answer"></td>
+          <td id="practice_3_answer">
+            <p id="time"></p>
+            <button id='start'> Start </button>
+            <button id='stop' > Stop </button>
+            <button id='reset'> Reset </button>
+          </td>
         </tr>
       </tbody>
     </table>
